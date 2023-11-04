@@ -43,6 +43,7 @@
     scroll-behavior: smooth;
   }
 }
+/* ========== CUSTOM CSS ========== */
 
 body {
   margin: 0;
@@ -68,7 +69,7 @@ video {
 }
 
 .intro {
-  margin: 1rem 1.5rem;
+  margin: 1rem;
   text-align: center;
   text-shadow: 1px 1px 1px #969696;
   font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
@@ -77,33 +78,33 @@ video {
 
 @media (min-width: 576px) {
   .intro {
-    margin: 2rem 1.5rem;
+    margin: 0.5rem 1.5rem;
     font-size: 1rem;
   }
 }
 
 @media (min-width: 768px) {
   .intro {
-    margin: 2rem 5rem;
+    margin: 1rem 5rem;
     font-size: 1.5rem;
   }
 }
 
 @media (min-width: 992px) {
   .intro {
-    margin: 2rem 10rem;
+    margin: 1rem 10rem;
     font-size: 1.5rem;
   }
 }
 @media (min-width: 1200px) {
   .intro {
-    margin: 4rem 20rem;
+    margin: 1rem 20rem;
     font-size: 2rem;
   }
 }
 @media (min-width: 1400px) {
   .intro {
-    margin: 4rem 20rem;
+    margin: 1rem 20rem;
     font-size: 2rem;
   }
 }
@@ -116,6 +117,12 @@ video {
   box-shadow: -1px -2px 1px #0d6efd;
 }
 
+.containerHDIW {
+  width: 100%;
+  padding: 5rem;
+  background-color: #647691;
+}
+
 .howDoesItWork {
   margin-bottom: 2rem;
   background: rgb(171,171,171);
@@ -123,9 +130,9 @@ video {
   background: -webkit-linear-gradient(153deg, rgba(171,171,171,1) 0%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
   background: linear-gradient(153deg, rgba(171,171,171,1) 0%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ababab",endColorstr="#0d6efd",GradientType=1);
-  border-radius: 2rem;
-  font-size: 1.15rem;
-  font-weight: bold;
+  font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+  font-weight: 999;
+  font-variant: small-caps;
   box-shadow: 10px 10px 25px #000;
 }
 
@@ -135,27 +142,78 @@ video {
   padding-bottom: 2rem;
 }
 
+@media (min-width: 576px) {
+  .howDoesItWork {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0;
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .howDoesItWork {
+    margin-bottom: 1rem;
+    padding: 0;
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .howDoesItWork {
+    margin-bottom: 1rem;
+    padding: 0;
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 1200px) {
+  .howDoesItWork {
+    margin-bottom: 2rem;
+    padding: 0;
+    font-size: 1.25rem;
+
+  }
+}
+@media (min-width: 1400px) {
+  .howDoesItWork {
+    margin-bottom: 2rem;
+    padding: 0;
+    font-size: 1.25rem;
+
+  }
+}
+
 .lureImgHome {
   margin-bottom: 2rem;
   margin-top: 1rem;
   width: 100%;
   max-width: 100%;
-  border-radius: 2rem;
   box-shadow: -10px 10px 25px #000;
 }
 
 .trainingList {
-  margin-top: 5rem;
+  width: 90%;
+  margin-top: 1rem;
   padding: 1rem;
   background: rgb(171,171,171);
   background: -moz-linear-gradient(153deg, rgba(171,171,171,1) 0%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
   background: -webkit-linear-gradient(153deg, rgba(171,171,171,1) 0%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
   background: linear-gradient(153deg, rgba(171,171,171,1) 0%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ababab",endColorstr="#0d6efd",GradientType=1);
-  border-radius: 2rem;
-  font-size: 1.15rem;
-  font-weight: bold;
+  font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+  font-size: 1.5rem;
+  font-weight: 999;
+  font-variant: small-caps;
   box-shadow: 10px 10px 25px #000;
+}
+
+.trainingList p, h2 {
+  text-align: center;
+}
+
+.customBullet {
+  display: flex;
+  column-count: 3;
 }
 
 .customBullet li{
@@ -168,18 +226,52 @@ video {
   color: purple;
 }
 
+.containerCompanies {
+  width: 100%;
+  padding: 2rem;
+  background-color: #4b8bf2;
+  font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+  font-size: 1.5rem;
+  font-weight: 999;
+  font-variant: small-caps;
+}
 
 hr {
-  margin: 1rem 0;
-  color: inherit;
-  background-color: currentColor;
-  border: 0;
-  opacity: 0.25;
+  border: none;
+  border-top: 1px solid rgba(255,255,255,.3);
+  border-bottom: 1px solid rgba(0,0,0,.08);
+  margin: 1em 0;
+  position: relative;
+}
+hr:before,hr:after {
+  content: '';
+  position: absolute;
+  bottom:0px;
+  height: 5em;
+  width: 100%;
+  background: radial-gradient(ellipse at bottom, rgba(255,255,255,0.35) 0%,rgba(255,255,255,0) 70%);
+  z-index:0;
+}
+hr:after {
+  top:0px;
+  bottom:auto;
+  height: 1.5em;
+  background: radial-gradient(ellipse at top, rgba(0,0,0,0.06) 0%,rgba(0,0,0,0) 70%);
 }
 
-hr:not([size]) {
-  height: 1px;
-}
+/* ========== CUSTOM CSS END ========== */
+
+/*hr {*/
+/*  margin: 1rem 0;*/
+/*  color: inherit;*/
+/*  background-color: currentColor;*/
+/*  border: 0;*/
+/*  opacity: 0.25;*/
+/*}*/
+
+/*hr:not([size]) {*/
+/*  height: 1px;*/
+/*}*/
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
