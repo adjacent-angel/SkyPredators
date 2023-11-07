@@ -118,82 +118,15 @@ video {
 }
 
 .containerHDIW {
-  width: 100%;
-  padding: 5rem;
   background-color: #647691;
+  padding: 2rem;
+  --bs-gutter-y: 0; !important;
+  --bs-gutter-x: 0; !important;
 }
 
 .howDoesItWork {
-  margin-bottom: 2rem;
-  background: rgb(171,171,171);
-  background: -moz-linear-gradient(153deg, rgba(171,171,171,1) 0%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
-  background: -webkit-linear-gradient(153deg, rgba(171,171,171,1) 0%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
-  background: linear-gradient(153deg, rgba(171,171,171,1) 0%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ababab",endColorstr="#0d6efd",GradientType=1);
-  font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
-  font-weight: 999;
-  font-variant: small-caps;
-  box-shadow: 10px 10px 25px #000;
-}
-
-.howDoesItWork h1 {
-  text-align: center;
-  text-shadow: 1px 2px 5px #0d6efd;
-  padding-bottom: 2rem;
-}
-
-@media (min-width: 576px) {
-  .howDoesItWork {
-    width: 100%;
-    margin-bottom: 1rem;
-    padding: 0;
-    font-size: 1.25rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .howDoesItWork {
-    margin-bottom: 1rem;
-    padding: 0;
-    font-size: 1.25rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .howDoesItWork {
-    margin-bottom: 1rem;
-    padding: 0;
-    font-size: 1.25rem;
-  }
-}
-@media (min-width: 1200px) {
-  .howDoesItWork {
-    margin-bottom: 2rem;
-    padding: 0;
-    font-size: 1.25rem;
-
-  }
-}
-@media (min-width: 1400px) {
-  .howDoesItWork {
-    margin-bottom: 2rem;
-    padding: 0;
-    font-size: 1.25rem;
-
-  }
-}
-
-.lureImgHome {
-  margin-bottom: 2rem;
-  margin-top: 1rem;
   width: 100%;
-  max-width: 100%;
-  box-shadow: -10px 10px 25px #000;
-}
-
-.trainingList {
-  width: 90%;
-  margin-top: 1rem;
+  margin-top: 2rem;
   padding: 1rem;
   background: rgb(171,171,171);
   background: -moz-linear-gradient(153deg, rgba(171,171,171,1) 0%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
@@ -201,8 +134,81 @@ video {
   background: linear-gradient(153deg, rgba(171,171,171,1) 0%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ababab",endColorstr="#0d6efd",GradientType=1);
   font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
-  font-size: 1.5rem;
-  font-weight: 999;
+  font-weight: 600;
+  font-variant: small-caps;
+  box-shadow: 10px 10px 25px #000;
+}
+
+.howDoesItWork h1 {
+  text-align: center;
+  text-shadow: 1px 2px 5px #0d6efd;
+}
+
+@media (min-width: 576px) {
+  .howDoesItWork, .trainingList {
+    margin: 1rem;
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .howDoesItWork, .trainingList {
+    margin: 1rem;
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .howDoesItWork, .trainingList {
+    margin: 2rem;
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .howDoesItWork, .trainingList {
+    margin: 2rem;
+    font-size: 1.5rem;
+
+  }
+}
+@media (min-width: 1400px) {
+  .howDoesItWork {
+    margin: 2rem;
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1400px) {
+  .trainingList {
+    margin: 2rem;
+    font-size: 1.5rem;
+
+  }
+}
+
+.lureImgHome {
+  margin: 1rem 4rem 2rem;
+  width: 100%;
+  box-shadow: -10px 10px 25px #000;
+}
+
+@media (max-width: 767px) {
+  .lureImgHome {
+    margin: 2rem 2rem 0 0;
+  }
+}
+
+.trainingList {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background: rgb(171,171,171);
+  background: -moz-linear-gradient(153deg, rgba(171,171,171,1) 0%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
+  background: -webkit-linear-gradient(153deg, rgba(171,171,171,1) 0%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
+  background: linear-gradient(153deg, rgba(171,171,171,1) 0%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ababab",endColorstr="#0d6efd",GradientType=1);
+  font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+  font-weight: 900;
   font-variant: small-caps;
   box-shadow: 10px 10px 25px #000;
 }
@@ -212,28 +218,33 @@ video {
 }
 
 .customBullet {
-  display: flex;
-  column-count: 3;
-}
-
-.customBullet li{
-  list-style-type: none;
-  background: url("../img/LIBird.png") no-repeat -5px 5px;
-  margin-bottom: 1rem;
-  margin-right: 3rem;
-  margin-left: 3rem;
-  padding: 0 0 3px 30px;
-  color: purple;
+  list-style-image: url("../img/LIBird.png");
 }
 
 .containerCompanies {
   width: 100%;
   padding: 2rem;
-  background-color: #4b8bf2;
+  display: block;
+  background: rgb(171,171,171);
+  background: -moz-linear-gradient(160deg, rgba(171,171,171,1) 15%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
+  background: -webkit-linear-gradient(160deg, rgba(171,171,171,1) 15%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
+  background: linear-gradient(160deg, rgba(171,171,171,1) 15%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ababab",endColorstr="#0d6efd",GradientType=1);
   font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
   font-size: 1.5rem;
-  font-weight: 999;
+  font-weight: 600;
   font-variant: small-caps;
+}
+
+@media (max-width: 767px) {
+  .containerCompanies img {
+    width:100%;
+  }
+}
+@media (max-width: 993px) {
+  .containerCompanies img {
+    width: 75%;
+  }
 }
 
 hr {
