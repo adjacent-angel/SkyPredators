@@ -272,11 +272,7 @@ video {
 #servicesOffered ul {
   list-style-type: square;
 }
-/*@media (max-width: 767px) {*/
-/*  #servicesOffered {*/
-/*    padding-left: 6rem;*/
-/*  }*/
-/*}*/
+
 @media (max-width: 1025px) {
   #servicesOffered {
     padding-left: 3rem;
@@ -304,6 +300,10 @@ hr:after {
   bottom:auto;
   height: 1.5em;
   background: radial-gradient(ellipse at top, rgba(0,0,0,0.06) 0%,rgba(0,0,0,0) 70%);
+}
+
+.servicesList h2{
+  text-align: center;
 }
 
 /* ========== CUSTOM CSS END ========== */
