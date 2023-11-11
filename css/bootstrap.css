@@ -126,6 +126,37 @@ video {
   --bs-gutter-x: 0; !important;
 }
 
+.sub-containerColor {
+  background-color: #ababab;
+  border: #647691 4px solid;
+  padding: 2rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(255,255,255,.3);
+  border-bottom: 1px solid rgba(0,0,0,.08);
+  margin: 1em 0;
+  position: relative;
+}
+hr:before,hr:after {
+  content: '';
+  position: absolute;
+  bottom:0px;
+  height: 5em;
+  width: 100%;
+  background: radial-gradient(ellipse at bottom, rgba(255,255,255,0.35) 0%,rgba(255,255,255,0) 70%);
+  z-index:0;
+}
+hr:after {
+  top:0px;
+  bottom:auto;
+  height: 1.5em;
+  background: radial-gradient(ellipse at top, rgba(0,0,0,0.06) 0%,rgba(0,0,0,0) 70%);
+}
+
+/* ========== CUSTOM CSS/Index ========== */
+
 .howDoesItWork {
   width: 100%;
   margin-top: 2rem;
@@ -135,9 +166,6 @@ video {
   background: -webkit-linear-gradient(153deg, rgba(171,171,171,1) 0%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
   background: linear-gradient(153deg, rgba(171,171,171,1) 0%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ababab",endColorstr="#0d6efd",GradientType=1);
-  /*font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;*/
-  /*font-weight: 600;*/
-  /*font-variant: small-caps;*/
   box-shadow: 10px 10px 25px #000;
 }
 
@@ -279,32 +307,29 @@ video {
   }
 }
 
-hr {
-  border: none;
-  border-top: 1px solid rgba(255,255,255,.3);
-  border-bottom: 1px solid rgba(0,0,0,.08);
-  margin: 1em 0;
-  position: relative;
-}
-hr:before,hr:after {
-  content: '';
-  position: absolute;
-  bottom:0px;
-  height: 5em;
-  width: 100%;
-  background: radial-gradient(ellipse at bottom, rgba(255,255,255,0.35) 0%,rgba(255,255,255,0) 70%);
-  z-index:0;
-}
-hr:after {
-  top:0px;
-  bottom:auto;
-  height: 1.5em;
-  background: radial-gradient(ellipse at top, rgba(0,0,0,0.06) 0%,rgba(0,0,0,0) 70%);
-}
-
 .servicesList h2{
   text-align: center;
 }
+
+/* ========== CUSTOM CSS END/Service Pages ========== */
+
+#DmgCherry {
+  width: 75%;
+  float: left;
+}
+
+#HealthyCherry {
+  width: 75%;
+  float: right;
+}
+
+@media (max-width: 767px) {
+  #DmgCherry, #HealthyCherry {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+/*style="width: 75%; float: left"*/
 
 /* ========== CUSTOM CSS END ========== */
 
