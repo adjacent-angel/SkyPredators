@@ -73,7 +73,6 @@ video {
   margin: 1rem;
   text-align: center;
   text-shadow: 1px 1px 2px #0d6efd;
-  /*text-shadow: 1px 1px 1px #969696;*/
   font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
   font-weight: bold;
 }
@@ -350,6 +349,24 @@ hr:after {
   font-weight: bold;
   font-size: 1.65rem;
 }
+
+#Industrial_imgs img{
+  width: 100%;
+  max-width: 100%;
+}
+
+.landfill_vid video {
+  width: 75%;
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 767px){
+  .landfill_vid video {
+    width: 100%;
+  }
+}
+
 
 
 /* ========== CUSTOM CSS END ========== */
