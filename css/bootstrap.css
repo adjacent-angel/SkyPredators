@@ -119,7 +119,6 @@ video {
 }
 
 .containerColor {
-  /*background-color: #647691;*/
   background: rgb(171,171,171);
   background: -moz-linear-gradient(160deg, rgba(171,171,171,1) 15%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
   background: -webkit-linear-gradient(160deg, rgba(171,171,171,1) 15%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
@@ -287,8 +286,8 @@ hr:after {
 
 #servicesOffered {
   margin-bottom: 2rem;
-  padding-left: 10rem;
   background-color: rgba(181, 181, 181, 0.44);
+  font-size: 1.25rem;
 }
 
 #servicesOffered a:link {
@@ -296,7 +295,6 @@ hr:after {
 }
 
 #servicesOffered a:hover {
-  font-size: 1.10rem;
   color: white;
   text-shadow: 1px 1px 2px #0d6efd;
 }
@@ -305,14 +303,13 @@ hr:after {
   list-style-type: square;
 }
 
-@media (max-width: 1025px) {
-  #servicesOffered {
-    padding-left: 3rem;
-  }
-}
-
 .servicesList h2{
   text-align: center;
+}
+
+/*align to other links on smaller screens*/
+#landfill_link {
+  padding-right: 2.5rem;
 }
 
 .info_container {
