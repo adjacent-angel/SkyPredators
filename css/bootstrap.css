@@ -315,6 +315,7 @@ hr:after {
 .info_container {
   border: #0d6efd 3px solid;
   padding: 1.5rem;
+  box-shadow: 10px 10px 25px #000;
 }
 /* ========== CUSTOM CSS END/Service Pages ========== */
 
@@ -362,6 +363,12 @@ hr:after {
   .landfill_vid video {
     width: 100%;
   }
+}
+
+.about_page img {
+  box-shadow: -1px 1px 10px #000;
+  max-width: 100%;
+  margin: 2rem;
 }
 
 
