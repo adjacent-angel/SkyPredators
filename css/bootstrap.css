@@ -110,13 +110,13 @@ video {
   }
 }
 
-.footer {
-  background-color: #ababab;
-  width: 100%;
-  max-width: 100%;
-  height: 8rem;
-  box-shadow: -1px -2px 1px #0d6efd;
-}
+/*.footer {*/
+/*  background-color: #ababab;*/
+/*  width: 100%;*/
+/*  max-width: 100%;*/
+/*  height: 8rem;*/
+/*  box-shadow: -1px -2px 1px #0d6efd;*/
+/*}*/
 
 .containerColor {
   background: rgb(171,171,171);
@@ -317,7 +317,7 @@ hr:after {
   padding: 1.5rem;
   box-shadow: 10px 10px 25px #000;
 }
-/* ========== CUSTOM CSS END/Service Pages ========== */
+/* ========== CUSTOM CSS/Service Pages ========== */
 
 #DmgCherry {
   width: 75%;
@@ -370,7 +370,6 @@ hr:after {
   max-width: 100%;
   margin: 2rem;
 }
-
 
 
 /* ========== CUSTOM CSS END ========== */
@@ -4167,7 +4166,7 @@ textarea.form-control-lg {
   color: #000;
   text-shadow: -1px -1px 1px #579efa;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: 600;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4277,9 +4276,9 @@ textarea.form-control-lg {
 }
 .navbar-brand {
   padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-bottom: 0.5rem;
   margin-right: 1rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-shadow: -1px -1px 2px #579efa;
   text-decoration: none;
   white-space: nowrap;
