@@ -110,14 +110,6 @@ video {
   }
 }
 
-/*.footer {*/
-/*  background-color: #ababab;*/
-/*  width: 100%;*/
-/*  max-width: 100%;*/
-/*  height: 8rem;*/
-/*  box-shadow: -1px -2px 1px #0d6efd;*/
-/*}*/
-
 .containerColor {
   background: rgb(171,171,171);
   background: -moz-linear-gradient(160deg, rgba(171,171,171,1) 15%, rgba(255,255,255,0.31836484593837533) 50%, rgba(13,110,253,1) 100%);
@@ -130,7 +122,8 @@ video {
 }
 
 .sub-containerColor {
-  background-color: #ababab;
+  /*background-color: #ababab;*/
+  background-color: rgba(88, 89, 92, 1);
   border: #647691 4px solid;
   padding: 2rem;
 }
@@ -314,7 +307,7 @@ hr:after {
 
 .info_container {
   border: #0d6efd 3px solid;
-  padding: 1.5rem;
+  /*padding: 1.5rem;*/
   box-shadow: 10px 10px 25px #000;
 }
 /* ========== CUSTOM CSS/Service Pages ========== */
@@ -322,17 +315,24 @@ hr:after {
 #DmgCherry {
   width: 75%;
   float: left;
+  margin-left: 5rem;
+  border-radius: 20rem;
+  box-shadow: 1px 1px 20px #fff;
 }
 
 #HealthyCherry {
   width: 75%;
   float: right;
+  margin-right: 5rem;
+  border-radius: 20rem;
+  box-shadow: 1px 1px 20px #fff;
 }
 
 @media (max-width: 767px) {
   #DmgCherry, #HealthyCherry {
     width: 100%;
     max-width: 100%;
+    margin: 0;
   }
 }
 
