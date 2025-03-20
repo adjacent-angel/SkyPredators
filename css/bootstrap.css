@@ -31,6 +31,10 @@
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 
 *,
 *::before,
@@ -46,7 +50,6 @@
 /* ========== CUSTOM CSS ========== */
 
 body {
-  margin: 0;
   font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
   font-size: 1rem;
   font-weight: 600;
@@ -278,6 +281,7 @@ hr:after {
 }
 
 #servicesOffered {
+  max-width: 100%;
   margin-bottom: 2rem;
   background-color: rgba(181, 181, 181, 0.44);
   font-size: 1.25rem;
@@ -301,8 +305,10 @@ hr:after {
 }
 
 /*align to other links on smaller screens*/
-#landfill_link {
-  padding-right: 2.5rem;
+@media (max-width: 767px) {
+  #servicesOffered {
+    padding-left: 20%;
+  }
 }
 
 .info_container {
@@ -369,6 +375,11 @@ hr:after {
   box-shadow: -1px 1px 10px #000;
   max-width: 100%;
   margin: 2rem;
+}
+
+.footer {
+  width: 100%;
+  max-width: 100%;
 }
 
 
@@ -4259,7 +4270,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  box-shadow: 1px 2px 1px #0d6efd;
+  border-bottom: 2px solid #0d6efd;
 }
 
 .navbar > .container,
